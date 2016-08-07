@@ -13,7 +13,11 @@
 		<main>
 			<section class="description">
 				<div class="description__logo-container">
-					<img src="img/fpf-logo-big.jpg" width="1080" height="1080" alt="Full Power Family logo">
+					<picture>
+						<source media="(min-width: 1100px)" srcset="img/fpf-logo-desktop@1x.jpg">
+						<source media="(min-width: 768px)" srcset="img/fpf-logo-tablet@1x.jpg">
+						<img src="img/fpf-logo-mobile@1x.jpg" srcset="img/fpf-logo-mobile@2x.jpg 2x" width="320" height="320" alt="Full Power Family logo">
+					</picture>
 				</div>
 			</section>
 		</main>
